@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       ]
     }],
     '@unocss/nuxt',
-    'nuxt-svgo',
+    'nuxt-icons',
     '@nuxt/devtools',
     '@vueuse/nuxt'
   ],
