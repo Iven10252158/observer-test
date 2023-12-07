@@ -17,8 +17,26 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-icons',
     '@nuxt/devtools',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxtjs/i18n'
   ],
+  i18n: {
+    strategy: 'no_prefix',
+    langDir: 'locales',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US',
+        file: 'en.json'
+      },
+      {
+        code: 'zh-tw',
+        iso: 'zh-TW',
+        file: 'zh-tw.json'
+      }
+    ],
+    defaultLocale: 'zh-tw'
+  },
   imports: {
     dirs: ['stores']
   },

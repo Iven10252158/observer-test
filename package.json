@@ -2,6 +2,7 @@
   "name": "intemeta-v1-nuxt3",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "build:gh-pages": "nuxt build --dotenv .env.gh-pages",
@@ -30,5 +31,8 @@
     "nuxt": "3.8.0",
     "nuxt-icons": "3.2.1",
     "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "8.0.0-beta.10"
   }
 }
