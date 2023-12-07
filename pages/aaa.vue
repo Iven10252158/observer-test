@@ -1,5 +1,7 @@
 <script setup lang='ts'>
 const { intersectionObserver, isIntersection, elRef } = useIntersectionObserver()
+console.log(isIntersection)
+console.log(elRef)
 
 const container = ref()
 const boxArray = ref([
